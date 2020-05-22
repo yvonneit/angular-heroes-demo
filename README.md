@@ -36,3 +36,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ```
 import { FormsModule } from '@angular/forms';
 ```
+
+### Angular 只会绑定到组件的公共属性
+
+### 在组件的 ngOnInit 生命周期钩子中调用 HeroService 方法，而不是构造函数中。
